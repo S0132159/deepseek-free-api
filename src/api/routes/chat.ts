@@ -6,7 +6,7 @@ import chat from '@/api/controllers/chat.ts';
 import process from "process";
 
 
-const DEEP_SEEK_CHAT_AUTHORIZATION = process.env.DEEP_SEEK_CHAT_AUTHORIZATION || "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";
+const DEEP_SEEK_CHAT_AUTHORIZATION = process.env.DEEP_SEEK_CHAT_AUTHORIZATION ;
 
 export default {
 
